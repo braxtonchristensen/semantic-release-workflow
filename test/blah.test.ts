@@ -1,7 +1,10 @@
-import { sum } from '../src';
+import { sum, diff } from '../src';
 
 describe('blah', () => {
-  it('works', () => {
+  it('sum', () => {
     expect(sum(1, 1)).toEqual(2);
+  });
+  it('diff', () => {
+    expect(diff(1, 1)).toEqual(0);
   });
 });
