@@ -1,54 +1,31 @@
 {
-  "version": "1.0.1",
-  "license": "MIT",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "src"
+  "name": "semantic-test-actions",
+  "private": true,
+  "workspaces": [
+    "packages/*"
   ],
-  "engines": {
-    "node": ">=10"
-  },
   "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build",
-    "presemantic-release": "yarn prepare",
+    "start": "ultra -r start",
+    "build": "ultra -r build",
+    "test": "ultra -r test",
+    "lint": "ultra -r lint",
+    "prepare": "ultra -r build",
     "semantic-release": "semantic-release"
   },
-  "peerDependencies": {},
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
+  "dependencies": {
+    "ramda": "^0.27.0"
   },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
-  "name": "semantic-test-actions",
-  "author": "Braxton M. Christensen",
-  "module": "dist/semantic-test-actions.esm.js",
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
+    "@types/node": "^14.0.13",
+    "@types/ramda": "^0.27.6",
     "husky": "^4.2.5",
     "semantic-release": "^17.0.8",
+    "semantic-release-monorepo": "^7.0.2",
     "tsdx": "^0.13.2",
     "tslib": "^2.0.0",
-    "typescript": "^3.9.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/braxtonchristensen/semantic-release-workflow.git"
-  },
-  "dependencies": {
-    "@types/ramda": "^0.27.6",
-    "ramda": "^0.27.0"
+    "typescript": "^3.9.5",
+    "ultra-runner": "^3.5.0"
   }
 }
