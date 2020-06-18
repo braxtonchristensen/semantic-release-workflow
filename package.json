@@ -27,5 +27,17 @@
     "tslib": "^2.0.0",
     "typescript": "^3.9.5",
     "ultra-runner": "^3.5.0"
-  }
+  },
+  "version": "0.0.0-development",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/braxtonchristensen/semantic-release-workflow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/braxtonchristensen/semantic-release-workflow/issues"
+  },
+  "homepage": "https://github.com/braxtonchristensen/semantic-release-workflow#readme",
+  "author": "Braxton M. Christensen",
+  "license": "ISC",
+  "description": ""
 }

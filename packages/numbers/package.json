@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -40,5 +40,8 @@
   "dependencies": {
     "@types/ramda": "^0.27.6",
     "ramda": "^0.27.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.0.8"
   }
 }
