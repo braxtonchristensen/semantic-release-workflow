@@ -29,10 +29,10 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@braxtonchristensen/my-test-strings",
+  "name": "my-test-strings",
   "author": "Braxton M. Christensen",
   "module": "dist/my-test-strings.esm.js",
   "dependencies": {
-    "@braxtonchristensen/my-test-numbers": "1.0.1"
+    "my-test-numbers": "1.0.1"
   }
 }
