@@ -10,4 +10,4 @@ export const sumStringNums = curry((a: string, b: string) => {
   const numberB = Number(b);
 
   return sum(numberA, numberB);
-})
+});
