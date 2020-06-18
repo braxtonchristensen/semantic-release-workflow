@@ -1,5 +1,4 @@
 {
-  "name": "@braxtonchristensen/semantic-test-actions",
   "private": true,
   "workspaces": [
     "packages/*"
