@@ -29,7 +29,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "my-test-numbers",
+  "name": "@braxtonchristensen/my-test-numbers",
   "author": "Braxton M. Christensen",
   "module": "dist/my-test-numbers.esm.js",
   "repository": {
