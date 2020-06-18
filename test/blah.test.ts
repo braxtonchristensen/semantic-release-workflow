@@ -17,4 +17,3 @@ describe('diff', () => {
     expect(diff(1)(1)).toEqual(0);
   });
 });
-
