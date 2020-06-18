@@ -20,3 +20,10 @@ export const multi = curry((a: number, b: number) => {
   }
   return a * b;
 });
+
+export const div = curry((a: number, b: number) => {
+  if ('development' === process.env.NODE_ENV) {
+    console.log('boop');
+  }
+  return a / b;
+});

@@ -1,4 +1,4 @@
-import { sum, diff, multi } from '../src';
+import { sum, diff, multi, div } from '../src';
 
 describe('sum', () => {
   it('should take 2 args at once', () => {
@@ -24,5 +24,14 @@ describe('multi', () => {
   });
   it('should take 1 arg at a time', () => {
     expect(multi(1)(1)).toEqual(1);
+  });
+});
+
+describe('div', () => {
+  it('should take 2 args at once', () => {
+    expect(div(1, 1)).toEqual(1);
+  });
+  it('should take 1 arg at a time', () => {
+    expect(div(1)(1)).toEqual(1);
   });
 });
