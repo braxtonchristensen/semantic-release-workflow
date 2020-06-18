@@ -1,5 +1,5 @@
 import { curry } from 'ramda';
-import { sum } from 'my-test-numbers';
+import { sum } from '@braxtonchristensen/my-test-numbers';
 
 export const concat = curry((a: string, b: string) => {
   return a + b;
