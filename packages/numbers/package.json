@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -15,9 +15,7 @@
     "build": "tsdx build",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "prepare": "tsdx build",
-    "presemantic-release": "yarn prepare",
-    "semantic-release": "semantic-release"
+    "prepare": "tsdx build"
   },
   "peerDependencies": {},
   "husky": {
@@ -31,9 +29,9 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "numbers",
+  "name": "my-test-numbers",
   "author": "Braxton M. Christensen",
-  "module": "dist/numbers.esm.js",
+  "module": "dist/my-test-numbers.esm.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/braxtonchristensen/semantic-release-workflow.git"
