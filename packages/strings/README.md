@@ -25,5 +25,3 @@ The package is optimized and bundled with Rollup into multiple formats (CommonJS
 
 Runs the test watcher (Jest) in an interactive mode.
 By default, runs tests related to files changed since the last commit.
-
-silly commit to bump version of strings
