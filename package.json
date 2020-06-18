@@ -9,7 +9,7 @@
     "test": "ultra -r test",
     "lint": "ultra -r lint",
     "prepare": "ultra -r build",
-    "semantic-release": "ultra -r semantic-release --debug"
+    "semantic-release": "ultra -r npx semantic-release --debug"
   },
   "dependencies": {
     "ramda": "^0.27.0"
