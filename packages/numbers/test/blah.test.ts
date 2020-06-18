@@ -20,9 +20,9 @@ describe('diff', () => {
 
 describe('multi', () => {
   it('should take 2 args at once', () => {
-    expect(multi(1, 1)).toEqual(0);
+    expect(multi(1, 1)).toEqual(1);
   });
   it('should take 1 arg at a time', () => {
-    expect(multi(1)(1)).toEqual(0);
+    expect(multi(1)(1)).toEqual(1);
   });
 });
