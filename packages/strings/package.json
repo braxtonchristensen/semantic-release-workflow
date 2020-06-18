@@ -33,6 +33,6 @@
   "author": "Braxton M. Christensen",
   "module": "dist/my-test-strings.esm.js",
   "dependencies": {
-    "my-test-numbers": "1.0.1"
+    "my-test-numbers": "1.2.0"
   }
 }
