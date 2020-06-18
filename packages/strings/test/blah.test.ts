@@ -1,4 +1,4 @@
-import { concat, sumStringNums } from '../src';
+import { concat, sumStringNums, reverse } from '../src';
 
 describe('concat', () => {
   it('should concat number strings', () => {
@@ -6,6 +6,12 @@ describe('concat', () => {
   });
   it('should curry concat number strings', () => {
     expect(concat('1')('1')).toEqual('11');
+  });
+});
+
+describe('reverse', () => {
+  it('should reverse strings', () => {
+    expect(reverse('test')).toEqual('tset');
   });
 });
 
