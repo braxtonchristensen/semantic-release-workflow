@@ -9,7 +9,7 @@
     "test": "ultra -r test",
     "lint": "ultra -r lint",
     "prepare": "ultra -r build",
-    "semantic-release": "ultra npx --no-install semantic-release"
+    "semantic-release": "ultra -r npx --no-install semantic-release -e semantic-release-monorepo"
   },
   "dependencies": {
     "ramda": "^0.27.0"
